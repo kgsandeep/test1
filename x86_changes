@@ -1,0 +1,175 @@
+53:fabos/src/include/sys/fabos/fabsys.h:2904:#warning X86_PORTING_CHANGES
+54:fabos/src/include/sys/fabos/fabsimics.h:27:#warning X86_PORTING_CHANGES
+55:fabos/src/include/sys/fc/fcph.h:20://#warning X86_PORTING_CHANGES
+56:fabos/src/include/sys/platform/mini_chassis/syscp_mini_chassis.h:26:#warning X86_PORTING_CHANGES
+57:fabos/src/include/sys/platform/sfm/sfm_sysfpga.h:20:#warning X86_PORTING_CHANGES
+58:fabos/src/include/utils/atomic.h:43:#warning X86_PORTING_CHANGES
+59:fabos/src/include/utils/atomic.h:63:#warning X86_PORTING_CHANGES
+60:fabos/src/include/utils/atomic.h:85:#warning X86_PORTING_CHANGES
+61:fabos/src/include/utils/atomic.h:105:#warning X86_PORTING_CHANGES
+62:fabos/src/include/utils/atomic.h:129:#warning X86_PORTING_CHANGES
+63:fabos/src/include/utils/atomic.h:150:#warning X86_PORTING_CHANGES
+64:fabos/src/include/utils/atomic.h:172:#warning X86_PORTING_CHANGES
+65:fabos/src/include/utils/atomic.h:193:#warning X86_PORTING_CHANGES
+66:fabos/src/include/utils/atomic.h:215:#warning X86_PORTING_CHANGES/* need to flag this - no apparent similar function on Intel */
+67:fabos/src/include/utils/atomic.h:225:#warning X86_PORTING_CHANGES
+72:fabos/src/sys/dev/asic/condor2/ftb.c:1432:#warning X86_PORTING_CHANGES
+73:fabos/src/sys/dev/asic/condor2/ftb.c:1492:#warning X86_PORTING_CHANGES
+74:fabos/src/sys/dev/asic/condor2/ftb.c:2132:#warning X86_PORTING_CHANGES
+75:fabos/src/sys/dev/asic/condor2/ftb.c:2190:#warning X86_PORTING_CHANGES
+89:fabos/src/sys/dev/blade/fusion_drv/fusion_drv.c:41:#warning X86_PORTING_CHANGES
+91:fabos/src/sys/dev/blade/fusion_pci/fusion_pci.c:20:#warning X86_PORTING_CHANGES
+92:fabos/src/sys/dev/portlog/portlog_drv.c:2615:#warning "X86: fix this"
+93:fabos/src/sys/dev/dce/hsl/hsl_ifm_obj.c:8210:#warning "X86: Need to fix"	
+94:fabos/src/sys/dev/wmd/wm_dumper.c:129:#warning "X86: Need to add extern here"
+97:fabos/src/sys/dev/hv/hv_module.c:23:#warning X86_PORTING_CHANGES
+98:fabos/src/sys/include/fabos/fabsys.h:2904:#warning X86_PORTING_CHANGES
+99:fabos/src/sys/include/fabos/fabsimics.h:27:#warning X86_PORTING_CHANGES
+100:fabos/src/sys/include/fc/fcph.h:20://#warning X86_PORTING_CHANGES
+101:fabos/src/sys/include/platform/mini_chassis/syscp_mini_chassis.h:26:#warning X86_PORTING_CHANGES
+102:fabos/src/sys/include/platform/sfm/sfm_sysfpga.h:20:#warning X86_PORTING_CHANGES
+103:fabos/src/sys/lib/fabos/fabpci.c:27:#warning X86_PORTING_CHANGES
+104:fabos/src/sys/lib/fabos/platform.c:134:#warning X86_PORTING_CHANGES
+105:fabos/src/sys/lib/platform/common/route/rpm.c:860:#warning "X86: fix this"
+106:fabos/src/sys/lib/platform/common/nos/ctrl/mm_platform.c:671:#warning "X86: fix this"
+107:fabos/src/sys/lib/platform/pulsar/sysctrl.c:18:#warning X86_PORTING_CHANGES
+108:fabos/src/sys/lib/platform/mm/sysha.c:434:#warning X86_PORTING_CHNAGES
+109:fabos/src/sys/lib/ds/ds_api.c:42:#warning X86_PORTING_CHANGES
+110:fabos/src/sys/diag/dtest/diagosc.c:77:#warning X86_PORTING_CHANGES
+111:fabos/src/lib/config/download/cfgUpld.c:57:#warning X86_PORTING_CHANGES
+113:fabos/src/lib/fkio/misc/syscall.c:18:#warning X86_PORTING_CHANGES
+114:fabos/src/lib/security/passwd_pub.c:1469:#warning X86_PORTING_CHANGES
+115:fabos/src/lib/security/passwd_pub.c:1809:#warning X86_PORTING_CHANGES
+116:fabos/src/lib/agd/agdlib.c:7878:			#warning X86_PORTING_CHANGES
+117:fabos/src/lib/tha/ha.c:22785:#warning X86_PORTING_CHANGES
+118:fabos/src/lib/tha/ha.c:22803:#warning X86_PORTING_CHANGES
+119:fabos/src/lib/hslagt/Makefile:41:#warning X86_PORTING_CHANGES
+164:fabos/src/track/pam/pam_fabos_log_auth.c:90:#warning "X86 changes PAM_ACCT_LOCKED redefined to 0 please fix "
+165:fabos/src/security/pam/pam_fabos_sess.c:44:#warning "FIXME :x86 changes "
+169:fabos/src/iswitch/isw_zn.c:653:#warning "error: FIXME X86 build error: variable-sized object may not be initialized"
+170:fabos/src/iswitch/isw_zn.c:715:#warning "error: FIXME X86 build error: variable-sized object may not be initialized"
+171:fabos/src/dce/l3/common/bchar_io.c:1395:#warning X86_PORTING_CHANGES
+172:fabos/src/dce/l3/vrrp/vrrp.c:115:#warning "FIXME: X86_PORTING_CHANGES  conflict with vswitch signal_init" 
+173:fabos/src/dce/l3/vrrp/vrrp_anycast_gateway.c:6171:#warning "FIXME: error: X86_PORTING_CHANGES"
+174:fabos/src/dce/l3/vrrp/vrrp_anycast_gateway.c:6181:#warning "FIXME: error: X86_PORTING_CHANGES"
+175:fabos/src/dce/l3/vrrp/vrrp_ip.c:1053:#warning "FIXME: error: X86_PORTING_CHANGES"
+176:fabos/src/dce/l3/vrrp/vrrp_ip.c:1063:#warning "FIXME: error: X86_PORTING_CHANGES"
+177:fabos/src/lp/dce/l2agt/Makefile:22:#warning X86_PORTING_CHANGES
+178:fabos/src/lp/dce/l2agt/l2agtdbg/Makefile:22:#warning X86_PORTING_CHANGES
+179:fabos/src/lp/dce/hslagt/Makefile:23:#warning X86_PORTING_CHANGES
+180:fabos/src/lp/dce/hslagt/Makefile:127:#warning X86_PORTING_CHANGES
+181:fabos/src/lp/dce/hslagt/pwm_agt/Makefile:79:#warning X86_PORTING_CHANGES
+182:fabos/src/vcs/dcm/projects/eclipse/DcmSource/Ipadm/Local/IpadmLocalObjectManager.cpp:274:#warning "X86 build error tracePrintf(TRACE_LEVEL_INFO, RouteWorker::RouteExecCommand cmd= %s, cmdline)"
+183:fabos/src/vcs/dcm/source/Ipadm/Local/IpadmLocalObjectManager.cpp:274:#warning "X86 build error tracePrintf(TRACE_LEVEL_INFO, RouteWorker::RouteExecCommand cmd= %s, cmdline)"
+186:fabos/bccb/include/sys/dce/hsl_ifindex.h:17://#warning X86_PORTING_CHANGES
+187:fabos/bccb/include/trace/trace_atomic.h:10://#warning X86_PORTING_CHANGES
+188:fabos/bccb/include/utils/ticksLib.h:31://#warning X86_PORTING_CHANGES
+189:fabos/bccb/lib/ipc/tst.c:76:#warning X86_PORTING_CHANGES
+190:fabos/bccb/lib/utils/signals.c:127:#warning X86_PORTING_CHANGES
+191:fabos/bccb/lib/utils/ticksLib.c:42://#warning X86_PORTING_CHANGES
+192:fabos/bccb/lib/cfwl/CommonLinux.cpp:21:#warning X86_PORTING_CHANGES
+193:fabos/bccb/lib/cfwl/SiliconDriveManagerLinux.cpp:29:#warning X86_PORTING_CHANGES
+194:fabos/bccb/sys/dev/raslog/rldd.c:64:#warning "X86: conversion required"
+195:fabos/bccb/sys/dev/trace/ras_ktrace.c:265:#warning "X86: need wmdumper module"
+196:fabos/bccb/sys/dev/trace/ras_ktrace.c:540:#warning "X86: need wmdumper module"
+197:fabos/bccb/sys/dev/trace/trace_dev.c:64:#warning "X86: need rdtsc migration"
+198:fabos/bccb/sys/dev/trace/trace_dev.c:1729:#warning "X86: porting required"
+199:fabos/bccb/sys/dev/trace/trace_util.c:86:#warning X86_PORTING_CHANGES
+203:fabos/bccb/sys/include/dce/hsl_ifindex.h:17://#warning X86_PORTING_CHANGES
+204:fabos/bccb/sys/lib/basic/assert.c:38:#warning X86_PORTING_CHANGES
+205:fabos/bccb/sys/lib/basic/consolelog.c:396:#warning X86_PORTING_CHANGES
+206:fabos/bccb/sys/lib/basic/consolelog.c:443:#warning X86_PORTING_CHANGES
+207:fabos/bccb/sys/lib/basic/consolelog.c:542:#warning X86_PORTING_CHANGES
+208:fabos/bccb/sys/lib/basic/consolelog.c:606:#warning X86_PORTING_CHANGES
+209:fabos/bccb/sys/lib/basic/consolelog.c:653:#warning X86_PORTING_CHANGES
+210:fabos/bccb/sys/lib/basic/init.c:60:#warning X86_PORTING_CHANGES
+211:fabos/bccb/sys/lib/basic/panicdump.c:84:#warning "X86: port kernel module"
+212:fabos/bccb/sys/lib/basic/panicdump.c:670:#warning "X86: Need to add extern here"
+213:fabos/bccb/sys/lib/basic/trap.c:87:#warning X86_PORTING_CHANGES
+214:fabos/bccb/sys/lib/basic/wmem.c:24:#warning X86_PORTING_CHANGES
+215:fabos/bccb/sys/lib/tp/tp_client.c:2580://#warning X86_PORTING_CHANGES
+217:fabos/cfos/include/sys/fabos/fabsys.h:2904:#warning X86_PORTING_CHANGES
+218:fabos/cfos/include/sys/fabos/fabsimics.h:27:#warning X86_PORTING_CHANGES
+219:fabos/cfos/include/sys/fc/fcph.h:20://#warning X86_PORTING_CHANGES
+220:fabos/cfos/include/sys/platform/mini_chassis/syscp_mini_chassis.h:26:#warning X86_PORTING_CHANGES
+221:fabos/cfos/include/sys/platform/sfm/sfm_sysfpga.h:20:#warning X86_PORTING_CHANGES
+222:fabos/cfos/include/utils/atomic.h:43:#warning X86_PORTING_CHANGES
+223:fabos/cfos/include/utils/atomic.h:63:#warning X86_PORTING_CHANGES
+224:fabos/cfos/include/utils/atomic.h:85:#warning X86_PORTING_CHANGES
+225:fabos/cfos/include/utils/atomic.h:105:#warning X86_PORTING_CHANGES
+226:fabos/cfos/include/utils/atomic.h:129:#warning X86_PORTING_CHANGES
+227:fabos/cfos/include/utils/atomic.h:150:#warning X86_PORTING_CHANGES
+228:fabos/cfos/include/utils/atomic.h:172:#warning X86_PORTING_CHANGES
+229:fabos/cfos/include/utils/atomic.h:193:#warning X86_PORTING_CHANGES
+230:fabos/cfos/include/utils/atomic.h:215:#warning X86_PORTING_CHANGES/* need to flag this - no apparent similar function on Intel */
+231:fabos/cfos/include/utils/atomic.h:225:#warning X86_PORTING_CHANGES
+236:fabos/cfos/sys/dev/asic/condor2/ftb.c:1432:#warning X86_PORTING_CHANGES
+237:fabos/cfos/sys/dev/asic/condor2/ftb.c:1492:#warning X86_PORTING_CHANGES
+238:fabos/cfos/sys/dev/asic/condor2/ftb.c:2132:#warning X86_PORTING_CHANGES
+239:fabos/cfos/sys/dev/asic/condor2/ftb.c:2190:#warning X86_PORTING_CHANGES
+253:fabos/cfos/sys/dev/blade/fusion_drv/fusion_drv.c:41:#warning X86_PORTING_CHANGES
+255:fabos/cfos/sys/dev/blade/fusion_pci/fusion_pci.c:20:#warning X86_PORTING_CHANGES
+256:fabos/cfos/sys/dev/portlog/portlog_drv.c:2615:#warning "X86: fix this"
+257:fabos/cfos/sys/dev/dce/hsl/hsl_ifm_obj.c:8210:#warning "X86: Need to fix"	
+258:fabos/cfos/sys/dev/wmd/wm_dumper.c:129:#warning "X86: Need to add extern here"
+261:fabos/cfos/sys/dev/hv/hv_module.c:23:#warning X86_PORTING_CHANGES
+262:fabos/cfos/sys/include/fabos/fabsys.h:2904:#warning X86_PORTING_CHANGES
+263:fabos/cfos/sys/include/fabos/fabsimics.h:27:#warning X86_PORTING_CHANGES
+264:fabos/cfos/sys/include/fc/fcph.h:20://#warning X86_PORTING_CHANGES
+265:fabos/cfos/sys/include/platform/mini_chassis/syscp_mini_chassis.h:26:#warning X86_PORTING_CHANGES
+266:fabos/cfos/sys/include/platform/sfm/sfm_sysfpga.h:20:#warning X86_PORTING_CHANGES
+267:fabos/cfos/sys/lib/fabos/fabpci.c:27:#warning X86_PORTING_CHANGES
+268:fabos/cfos/sys/lib/fabos/platform.c:134:#warning X86_PORTING_CHANGES
+269:fabos/cfos/sys/lib/platform/common/route/rpm.c:860:#warning "X86: fix this"
+270:fabos/cfos/sys/lib/platform/common/nos/ctrl/mm_platform.c:671:#warning "X86: fix this"
+271:fabos/cfos/sys/lib/platform/pulsar/sysctrl.c:18:#warning X86_PORTING_CHANGES
+272:fabos/cfos/sys/lib/platform/mm/sysha.c:434:#warning X86_PORTING_CHNAGES
+273:fabos/cfos/sys/lib/ds/ds_api.c:42:#warning X86_PORTING_CHANGES
+274:fabos/cfos/sys/diag/dtest/diagosc.c:77:#warning X86_PORTING_CHANGES
+275:fabos/cfos/lib/config/download/cfgUpld.c:57:#warning X86_PORTING_CHANGES
+277:fabos/cfos/lib/fkio/misc/syscall.c:18:#warning X86_PORTING_CHANGES
+278:fabos/cfos/lib/security/passwd_pub.c:1469:#warning X86_PORTING_CHANGES
+279:fabos/cfos/lib/security/passwd_pub.c:1809:#warning X86_PORTING_CHANGES
+280:fabos/cfos/lib/agd/agdlib.c:7878:			#warning X86_PORTING_CHANGES
+281:fabos/cfos/lib/tha/ha.c:22785:#warning X86_PORTING_CHANGES
+282:fabos/cfos/lib/tha/ha.c:22803:#warning X86_PORTING_CHANGES
+283:fabos/cfos/lib/hslagt/Makefile:41:#warning X86_PORTING_CHANGES
+328:fabos/cfos/track/pam/pam_fabos_log_auth.c:90:#warning "X86 changes PAM_ACCT_LOCKED redefined to 0 please fix "
+329:fabos/cfos/security/pam/pam_fabos_sess.c:44:#warning "FIXME :x86 changes "
+333:fabos/cfos/iswitch/isw_zn.c:653:#warning "error: FIXME X86 build error: variable-sized object may not be initialized"
+334:fabos/cfos/iswitch/isw_zn.c:715:#warning "error: FIXME X86 build error: variable-sized object may not be initialized"
+335:fabos/cfos/dce/l3/common/bchar_io.c:1395:#warning X86_PORTING_CHANGES
+336:fabos/cfos/dce/l3/vrrp/vrrp.c:115:#warning "FIXME: X86_PORTING_CHANGES  conflict with vswitch signal_init" 
+337:fabos/cfos/dce/l3/vrrp/vrrp_anycast_gateway.c:6171:#warning "FIXME: error: X86_PORTING_CHANGES"
+338:fabos/cfos/dce/l3/vrrp/vrrp_anycast_gateway.c:6181:#warning "FIXME: error: X86_PORTING_CHANGES"
+339:fabos/cfos/dce/l3/vrrp/vrrp_ip.c:1053:#warning "FIXME: error: X86_PORTING_CHANGES"
+340:fabos/cfos/dce/l3/vrrp/vrrp_ip.c:1063:#warning "FIXME: error: X86_PORTING_CHANGES"
+341:fabos/cfos/lp/dce/l2agt/Makefile:22:#warning X86_PORTING_CHANGES
+342:fabos/cfos/lp/dce/l2agt/l2agtdbg/Makefile:22:#warning X86_PORTING_CHANGES
+343:fabos/cfos/lp/dce/hslagt/Makefile:23:#warning X86_PORTING_CHANGES
+344:fabos/cfos/lp/dce/hslagt/Makefile:127:#warning X86_PORTING_CHANGES
+345:fabos/cfos/lp/dce/hslagt/pwm_agt/Makefile:79:#warning X86_PORTING_CHANGES
+346:fabos/cfos/vcs/dcm/projects/eclipse/DcmSource/Ipadm/Local/IpadmLocalObjectManager.cpp:274:#warning "X86 build error tracePrintf(TRACE_LEVEL_INFO, RouteWorker::RouteExecCommand cmd= %s, cmdline)"
+347:fabos/cfos/vcs/dcm/source/Ipadm/Local/IpadmLocalObjectManager.cpp:274:#warning "X86 build error tracePrintf(TRACE_LEVEL_INFO, RouteWorker::RouteExecCommand cmd= %s, cmdline)"
+568:linux_plat/linux_2_6_34/arch/x86/include/asm/dma-mapping.h:166:#warning X86_PORTING_CHANGES
+569:linux_plat/linux_2_6_34/arch/x86/include/asm/dwarf2.h:5:#warning "asm/dwarf2.h should be only included in pure assembly files"
+570:linux_plat/linux_2_6_34/arch/x86/include/asm/ptrace.h:137://#warning "Fix these defines for X86"
+571:linux_plat/linux_2_6_34/arch/x86/include/asm/time.h:23:#warning "implement get_tb"
+572:linux_plat/linux_2_6_34/arch/x86/include/asm/time.h:29:#warning "implement get_tb"
+573:linux_plat/linux_2_6_34/arch/x86/include/asm/time.h:35:#warning "implement get_tb"
+574:linux_plat/linux_2_6_34/arch/x86/include/asm/timex.h:14:#warning X86_PORTING_CHANGES
+576:linux_plat/linux_2_6_34/arch/x86/mm/init_32.c:56:#warning "iowmem changes"
+579:linux_plat/linux_2_6_34/drivers/char/wmap.c:575:#warning "X86: change export"
+581:linux_plat/linux_2_6_34/drivers/i2c/busses/silkworm_i2c.c:3965:#warning "X86: Port to x86"
+599:linux_plat/linux_2_6_34/drivers/pci/hotplug/pciehp_bhpc_irq.c:211:#warning "X86: PCI mapping fix is required for x86"
+600:linux_plat/linux_2_6_34/drivers/pci/hotplug/pciehp_bhpc_irq.c:3887:#warning "X86: Fix need for x86"
+601:linux_plat/linux_2_6_34/drivers/pci/hotplug/pciehp_bhpc_irq.c:4708:#warning "X86: Fix need for x86"
+602:linux_plat/linux_2_6_34/drivers/pci/hotplug/pciehp_bhpc_irq.c:4805:#warning "X86: Fix need for x86"
+603:linux_plat/linux_2_6_34/drivers/pci/hotplug/pciehp_bhpc_irq.c:4853:#warning "X86: Fix need for x86"
+604:linux_plat/linux_2_6_34/drivers/pci/hotplug/pciehp_bhpc_irq.c:5152:#warning "X86: Fix need for x86"
+605:linux_plat/linux_2_6_34/drivers/pci/hotplug/pciehp_bhpc_irq.c:5180:#warning "X86: Fix need for x86"
+609:linux_plat/linux_2_6_34/drivers/scsi/ips.c:210:#warning "This driver has only been tested on the x86/ia64/x86_64 platforms"
+623:linux_plat/linux_2_6_34/drivers/usb/storage/usb.c:457:#warning "Implement: FIXME: Do we need usb_stor_sd_index ?? for x86 ?
+635:linux_plat/linux_2_6_34/include/linux/netdevice.h:188:#warning X86_PORTING_CHANGES
+638:linux_plat/linux_2_6_34/include/brocade/platform.h:32:#warning "X86: fix it "
+640:linux_plat/linux_2_6_34/init/main.c:562:#warning "X86: lmb reserver should be impleted"
